@@ -1,4 +1,4 @@
-const socket = io("http://localhost:3000/");
+const socket = io("https://chatbox-realtime-socketio.herokuapp.com/");
 
 $(document).ready(function () {
   $("#chatbox").hide();
